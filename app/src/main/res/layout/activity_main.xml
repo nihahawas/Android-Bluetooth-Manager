@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Status: Unknown"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turn On Bluetooth" />
+
+    <Button
+        android:id="@+id/btnOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turn Off Bluetooth" />
+
+    <Button
+        android:id="@+id/btnDiscoverable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make Discoverable" />
+
+    <Button
+        android:id="@+id/btnPairedDevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Paired Devices" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available/Paired Devices:"
+        android:paddingTop="10dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/devicesListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
