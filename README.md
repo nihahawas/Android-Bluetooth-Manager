@@ -17,3 +17,6 @@ A native Android application developed in Kotlin that provides a comprehensive i
     * `ACCESS_FINE_LOCATION`
 
 ## 📸 Screenshots
+<img width="400" height="678" alt="image" src="https://github.com/user-attachments/assets/7107a6e6-bce8-42e0-a35a-431a8400cd5a" />
+<img width="403" height="687" alt="image" src="https://github.com/user-attachments/assets/62c50f4a-7772-45f1-a868-1cf9b913a479" />
+
